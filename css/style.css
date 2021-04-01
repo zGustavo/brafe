@@ -134,3 +134,35 @@ a.menu-logo {
     margin: 20px auto;
     max-width: 460px;
 }
+
+/* Produtos */
+
+.produtos {
+    background: #E7E4D8;
+    padding: 60px 0;
+    border-top: 3px solid #D6D3C8;
+    border-bottom: 3px  solid #D6D3C8;
+}
+
+.produtos-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.produtos-container::before, .produtos-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.produtos-item {
+    width: 300px;
+    float: left;
+    margin: 0 10px;
+}
+
+.produtos-item h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
