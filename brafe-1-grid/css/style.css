@@ -31,6 +31,13 @@ img {
 
 }
 
+a.menu-logo {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+
 /* Intro */
 
 .intro {
@@ -112,6 +119,9 @@ h2.produtos-mineiro::before {
 
 /* Assine */
 
+.assine {
+    background: #E7E4D8;
+}
 .assine input {
     border: 3px solid #252525;
     background: none;
