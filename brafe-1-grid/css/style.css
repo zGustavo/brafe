@@ -40,6 +40,8 @@ body {
 
 .intro h1::after {
     content: '';
+    display: table;
+    clear: both;
 }
 
 /* Sobre */
