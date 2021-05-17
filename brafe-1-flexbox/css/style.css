@@ -147,6 +147,8 @@ body {
 }
 
 .produtos-item {
+    flex: 1;
+    margin: 0 10px;
     margin-bottom: 40px;
 }
 
@@ -196,7 +198,7 @@ h2.produtos-mineiro::before {
     display: block;
     width: 180px;
     padding: 15px 0;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 
@@ -207,7 +209,17 @@ h2.produtos-mineiro::before {
 }
 
 .locais-item {
-    margin-bottom: 40px !important;
+    margin-bottom: 40px;
+}
+
+.locais-img, .locais-info {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.locais-img img {
+    display: block;
+    max-width: 100%;
 }
 
 .locais-item h2 {
