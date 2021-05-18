@@ -249,18 +249,47 @@ h2.produtos-mineiro::before {
     background: #E7E4D8;
     padding: 30px 0;
 }
+
+.assine-info {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.assine-info h2 {
+    font-size: 2.25em;
+}
+
+.assine-info p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.assine form {
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.assine form label {
+    display: none;
+}
+
 .assine input {
+    flex: 1;
+    align-self: flex-start;
     border: 3px solid #252525;
     background: none;
     font-size: 1.5em;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: calc(100% - 140px);
     padding: 10px;
-    float: left;
 }
 
 .assine button {
+    flex: 1;
+    align-self: flex-start;
     background: #252525;
     border: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -268,7 +297,6 @@ h2.produtos-mineiro::before {
     font-size: 1.5em;
     color: #FFF;
     cursor: pointer;
-    width: 140px;
     padding: 13px 0;
 }
 
@@ -279,13 +307,12 @@ h2.produtos-mineiro::before {
     padding: 40px 0;
 }
 
-.footer img {
-    float: right;
-}
 
 .footer p {
+    flex: 1;
     font-size: 1.125em;
     line-height: 1.4em;
+    margin: 0 10px;
 }
 
 @media (max-width: 739px ) {
