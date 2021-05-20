@@ -1,307 +1,295 @@
 /* Reset */
 
 body, h1, h2, h3, p, ul {
-    padding: 0px;
-    margin: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 body {
-    font-family: Georgia, serif;
-    color: #252525;
+	font-family: Georgia, serif;
+	color: #252525;
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-img {
-    display: block;
-    max-width: 100%;
+img{
+	display: block;
+	max-width: 100%;
 }
 
 /* Menu */
 
 .menu {
-    background: #252525;
+	background: #252525;
+	padding: 20px 0;
 }
 
 .menu-nav a {
-    text-decoration: none;
-    color: #FFF;
-    font-size: 1.125;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
 }
 
+.menu-nav ul{
+	float: right;
+	list-style: none;
+}
+
+.menu-nav ul li{
+	display: inline-block;
+}
+
+.menu-nav ul li a{
+	padding: 10px 0;
+	display: inline-block;
+	margin-left: 10px;
+}
 
 /* Intro */
+
 .intro {
-    background: url('../img/bg-intro.jpg') no-repeat center center;
-    background-size: cover;
-    text-align: center;
-    color: #FFF;
+	background: url('../../img/bg-intro.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding: 140px 0;
 }
 
 .intro h1 {
-    text-transform: uppercase;
-    font-size: 3em;
+	text-transform: uppercase;
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
 }
 
 .intro h1::after {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 4px;
-    background: #FFF;
-    margin: 10px auto;
+	content: '';
+	display: block;
+	width: 20px;
+	height: 4px;
+	background: #fff;
+	margin: 10px auto;
 }
 
 .intro p {
-    font-style: italic;
-    font-size: 1.125em;
+	font-style: italic;
+	font-size: 1.125em;
+	text-align: center;
 }
-
 
 /* Sobre */
 
-
-
-.sobre-container {
-    margin: 0 auto;
-}
-
-.sobre-container::after, .sobre-container::before {
-    content: '';
-    display: table;
-    clear: both;
+.sobre{
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .sobre h2 {
-    font-size: 2.25em;
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.sobre-item {
-    margin: 0 10px;
-}
-
-.sobre-item img {
-    display: block;
-    max-width: 100%;
+	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: bold;
 }
 
 .sobre-item h3 {
-    font-size: 2.25em;
-    background: #252525;
-    color: #FFF;
-    font-style: italic;
-    font-weight: normal;
-    text-align: center;
-    top: -25px;
-    position: relative;
+	font-size: 2.25em;
+	line-height: 1em;
+	background: #252525;
+	color: #fff;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+	width: 220px;
+	padding: 5px 0 10px 0;
+	top: -25px;
 }
 
-.sobre p {
-    font-size: 1.25em;
-    line-height: 1.4em;
-    font-style: italic;
-    text-align: center;
-    margin: 20px auto;
+.sobre > p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	font-style: italic;
+	max-width: 440px;
+	text-align: center;
+	margin: 15px auto;
 }
-
 
 /* Produtos */
 
 .produtos {
-    background: #E7E4D8;
-    border-top: 3px solid #D6D3C8;
-    border-bottom: 3px  solid #D6D3C8;
+	background: #e7e4d8;
+	border-top: 3px solid #d6d3c8;
+	border-bottom: 3px solid #d6d3c8;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
-.produtos-container {
-    margin: 0 auto;
-}
-
-.produtos-container::before, .produtos-container::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.produtos-item {
-    margin: 0 10px 20px 10px;
+.produtos-item{
+	margin-bottom: 30px;
 }
 
 .produtos-item h2 {
-    text-align: center;
-    font-size: 2.25em;
-    margin-bottom: 20px;
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .produtos-item h2::before {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 20px auto;
-    border: 5px solid #E7E4D8;
-    box-shadow: 0 0 0 10px currentColor;
-    background: currentColor;
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: currentColor;
+	border-radius: 50%;
+	border: 5px solid #e7e4d8;
+	box-shadow: 0 0 0 5px currentColor;
+	margin: 20px auto;
 }
 
 h2.produtos-paulista::before {
-    color: #492901;
+	color: #492901;
 }
 
 h2.produtos-carioca::before {
-    color: #C17139;
+	color: #c17139;
 }
 
 h2.produtos-mineiro::before {
-    color: #D7A54D;
+	color: #d7a54d;
 }
 
 .produtos-item p {
-    font-size: 0.875em;
-    line-height: 1.4em;
+	font-size: 0.875em;
+	line-height: 1.4em;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 420px;
 }
 
 .produtos-btn {
-    border: 3px solid;
-    color: #252525;
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 20px auto 0 auto;
+	border: 3px solid #252525;
+	color: #252525;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.125em;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 180px;
+	display: block;
+	margin: 15px auto 0 auto;
+	padding: 15px 0; 
+}
+
+.produtos-btn:hover{
+	text-decoration: none;
+	color: #C17139;
+	border-color: #C17139;
 }
 
 /* Locais */
 
-.locais {
-    margin: 0 auto;
+.locais{
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
-.locais-item {
-    clear: both;
-    margin: 60px auto;
-}
-
-.locais-item::after, .locais-item::before {
-    display: table;
-    content: '';
-    clear: both;
-}
-
-.locais-item img {
-    display: block;
-    margin: 0 10px;
-}
-
-.locais-item > div {
-    margin: 0 10px;
+.locais-item{
+	margin-bottom: 20px;
 }
 
 .locais-item h2 {
-    font-size: 2.25em;
-    margin-bottom: 20px;
+	font-size: 2.25em;
+	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 .locais-item p {
-    font-size: 1.125em;
-    line-height: 1.4em;
-    margin-bottom: 40px;
+	font-size: 1.125em;
+	line-height: 1.4em;
+	max-width: 320px;
+	margin-bottom: 25px;
 }
 
 .locais-item a {
-    font-size: 1.125em;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 3px solid;
-    color: #252525;
+	display: block;
+	width: 150px;
+	font-size: 1.125em;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 3px solid;
+	color: #252525;
+	padding: 10px;
 }
 
 /* Assine */
 
 .assine {
-    background: #E7E4D8;
-}
-
-.assine-container {
-    margin: 0 auto;
-}
-
-.assine-container::after, .assine-container::before {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.assine-info {
-    margin: 0 10px;
+	background: #e7e4d8;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .assine-info h2 {
-    font-size: 2.25em;
+	font-weight: bold;
+	font-size: 2.25em;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 .assine-info p {
-    font-size: 1.5em;
-    font-style: italic;
+	font-size: 1.5em;
+	font-style: italic;
 }
 
-.assine form {
-    margin: 10px 10px 0 10px;
+.assine form{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	margin-top: 10px;
 }
 
 .assine form label {
-    display: none;
+	display: none;
 }
 
 .assine input {
-    box-sizing: border-box;
-    border: 3px solid #252525;
-    background: none;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    float: left;
+	align-self: flex-start;
+	border: 3px solid #252525;
+	background: none;
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: Georgia, serif;
+	padding: 10px;
 }
 
 .assine button {
-    background: #252525;
-    border: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    color: #FFF;
-    cursor: pointer;
+	align-self: flex-start;
+	background: #252525;
+	border: none;
+	font-family: Georgia, serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #fff;
+	cursor: pointer;
+	padding: 13px;
 }
 
-/* Footer */
+/*Footer*/
 
 .footer {
-    background: #D6D3C8;
-}
-
-.footer-container {
-    margin: 0 auto;
-}
-
-.footer-container::after, .footer-container::before {
-    content: '';
-    display: table;
-    clear: both;
+	background: #d6d3c8;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .footer p {
-    float: left;
-    margin: 0 10px;
-    font-size: 1.125em;
-    line-height: 1.4em;
+	font-size: 1.125em;
+	line-height: 1.4em;
 }
 
-.footer img {
-    float: right;
-    display: block;
+.footer img{
+	float: right;
 }
