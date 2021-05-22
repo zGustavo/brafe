@@ -47,13 +47,24 @@ img{
 	margin-left: 10px;
 }
 
+@media (max-width: 769px) {
+	.menu-nav ul {
+		float: none;
+	}
+	.menu-nav ul li a {
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+}
+
 /* Intro */
 
 .intro {
 	background: url('../../img/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
-	padding: 140px 0;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -69,7 +80,7 @@ img{
 	width: 20px;
 	height: 4px;
 	background: #fff;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 .intro p {
@@ -78,11 +89,16 @@ img{
 	text-align: center;
 }
 
+@media (max-width: 769px ) {
+	.intro {
+		padding: 60px 0;
+	}
+}
+
 /* Sobre */
 
 .sobre{
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding: 60px 0;
 }
 
 .sobre h2 {
@@ -110,7 +126,7 @@ img{
 	font-size: 1.125em;
 	line-height: 1.4em;
 	font-style: italic;
-	max-width: 440px;
+	max-width: 460px;
 	text-align: center;
 	margin: 15px auto;
 }
