@@ -23,7 +23,8 @@ img{
 
 .menu {
 	background: #252525;
-	padding: 20px 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .menu-nav a {
@@ -98,7 +99,8 @@ img{
 /* Sobre */
 
 .sobre{
-	padding: 60px 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .sobre h2 {
@@ -212,7 +214,7 @@ h2.produtos-mineiro::before {
 }
 
 .locais-item{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .locais-item h2 {
@@ -308,4 +310,11 @@ h2.produtos-mineiro::before {
 
 .footer img{
 	float: right;
+}
+
+@media (max-width: 739px) {
+	.footer img {
+		float: none;
+		margin-top: 20px;
+	}
 }
