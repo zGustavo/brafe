@@ -30,12 +30,7 @@ a {
 
 .header {
     background: #D6D3C8;
-    padding: 20px;
-    display: flex;
-}
-
-.header-logo {
-    flex-grow: 1;
+    padding: 20px 0;
 }
 
 .header-menu ul {
@@ -54,33 +49,19 @@ a {
 }
 
 @media(max-width: 739px ) {
-    .header{
-        flex-direction: column;
-    }
-    .header-menu {
+    .header-menu ul {
         margin-top: 10px;
     }
 }
 
 /* MAIN */
 
-.main-container {
-    display: flex;
-}
 
-@media (max-width: 739px) {
-    .main-container {
-        flex-direction: column;
-    }
-}
 
 /* SIDE NAV */
 
 .side-nav {
-    flex: 1;
-    max-width: 300px;
     background: #252525;
-    margin-right: 10px;
 }
 
 .side-nav ul li a {
@@ -126,32 +107,22 @@ a {
     background-position: 0 calc(-24px * 5);
 }
 
-@media (min-width: 740px) and (max-width: 980px) {
+@media (max-width: 767px) {
     .side-nav {
-        width: 200px;
-    }
-}
-
-@media (max-width: 739px) {
-    .main-container {
-        flex-direction: column;
-    }  
-    .side-nav {
-        margin: 10px;
         background: none;
-        max-width: 100%;
     }
     .side-nav ul {
+        margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
     }
     .side-nav ul li {
-        margin-bottom: 10px;
         margin-right: 10px;
+        margin-bottom: 10px;
     }
     .side-nav ul li a::before {
-        margin: 0px;
-        top: 0px;
+        top: 0;
+        margin: 0;
     }
     .side-nav ul li a {
         width: 44px;
@@ -159,7 +130,6 @@ a {
         overflow: hidden;
         padding: 10px;
         border: none;
-        color: #252525;
         background: #252525;
         border-radius: 4px;
     }
@@ -167,19 +137,9 @@ a {
 
 /* Produtos */
 
-.produtos {
-    flex: 1;
-    padding: 20px 10px;
-}
-
-.produtos header {
-    display: flex;
-}
-
 .produtos h1 {
     font-size: 2.25em;
-    flex-grow: 1;
-    margin-right: 20px;
+    font-weight: bold;
 }
 
 .adicionar-produtos {
@@ -198,7 +158,6 @@ a {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     margin-top: 20px;
     position: relative;
-    display: flex;
 }
 
 .produtos-item a {
@@ -216,13 +175,8 @@ a {
     background: url('../img/edit-hover.svg') no-repeat;
 }
 
-.produtos-item img {
-    align-self: flex-start;
-}
-
 .produtos-item ul {
     padding: 0 20px;
-    width: calc(100% - 140px);
 }
 
 .produtos-item ul li {
@@ -242,14 +196,7 @@ a {
     display: inline-block;
 }
 
-@media (max-width: 739px) {
-    .produtos header {
-        flex-direction: column;
-    }
-    .produtos-item {
-        flex-direction: column;
-    }
-}
+
 
 /* FOOTER */
 
