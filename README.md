@@ -23,7 +23,7 @@ O projeto **Brafé** foi desenvolvido durante o curso de **CSS Avançado** da **
 [![Brafe](https://user-images.githubusercontent.com/34483432/120875518-9ae43700-c582-11eb-900e-4f9d3e66ecf7.gif "Clique para acessar o projeto")](https://zgustavo.github.io/brafe/ "Clique para acessar o projeto")  
 
 ## 📱 Mobile
-[![Brafe](https://user-images.githubusercontent.com/34483432/120875259-5ad08480-c581-11eb-8eee-cb54599e409a.gif "Clique para acessar o projeto")](https://zgustavo.github.io/brafe/brafe-2-flexbox/ "Clique para acessar o projeto")
+[![Brafe](https://user-images.githubusercontent.com/34483432/120875259-5ad08480-c581-11eb-8eee-cb54599e409a.gif "Clique para acessar o projeto")](https://zgustavo.github.io/brafe/ "Clique para acessar o projeto")
 
 
 Você pode acessar o projeto clicando [aqui](https://zgustavo.github.io/brafe/).
