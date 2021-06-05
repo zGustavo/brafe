@@ -20,10 +20,11 @@ O projeto **Brafé** foi desenvolvido durante o curso de **CSS Avançado** da **
 
 ## 🖥️ Demonstração Brafé 1
 ## Desktop
-[![Brafe](https://i.imgur.com/l2h48Cf.gif "Clique para acessar o projeto")](https://zgustavo.github.io/brafe/ "Clique para acessar o projeto")   
+![[Brafe](https://i.imgur.com/l2h48Cf.gif "Clique para acessar o projeto")](https://zgustavo.github.io/brafe/ "Clique para acessar o projeto")   
 
 ## Mobile
-[![Brafe](https://i.imgur.com/BInRL22.gif "Clique para acessar o projeto")](https://zgustavo.github.io/brafe/brafe-2-flexbox/ "Clique para acessar o projeto")
+![[Brafe](https://i.imgur.com/BInRL22.gif "Clique para acessar o projeto")](https://zgustavo.github.io/brafe/brafe-2-flexbox/ "Clique para acessar o projeto")
+
 
 Você pode acessar o projeto clicando [aqui](https://zgustavo.github.io/brafe/).
 **Confira o [Brafé 2][Brafé 2] e [Brafé 3][Brafé 3]**
